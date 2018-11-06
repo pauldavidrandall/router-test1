@@ -1,0 +1,25 @@
+/* Navigation Component Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+
+}
+nav a:visited {
+    color: #666;
+}
+
+@media only screen and (max-width: 350px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        font-size: 1.4em;
+        padding: 10px 0;
+
+    }
+}
